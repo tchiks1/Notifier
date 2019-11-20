@@ -1,6 +1,5 @@
 package be.com.notifier;
 
-
 import android.app.Activity;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
@@ -18,16 +17,14 @@ public class NotifierMessage extends AppCompatActivity {
     static TextView text;
 
     public static void s(Context c, String message){
-
         Toast.makeText(c,message, Toast.LENGTH_LONG).show();
-
     }
 
     public static NotifierMessage success(Activity activity, String message){
 
         inflater = activity.getLayoutInflater();
         View layout = inflater.inflate(R.layout.custom_toast,
-                (ViewGroup) activity.findViewById(R.id.custom_toast));
+                (ViewGroup) activity.findViewById(R.id.custom_toast_layout));
 
         layout.setBackgroundColor(activity
                 .getResources().getColor(R.color.colorAccent));
