@@ -10,8 +10,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
-
 public class NotifierMessage extends AppCompatActivity {
 
     private final static NotifierMessage INSTANCE = new NotifierMessage();
@@ -45,6 +43,7 @@ public class NotifierMessage extends AppCompatActivity {
 
         return INSTANCE;
     }
+
 }
 
 
