@@ -39,6 +39,7 @@ public class NotifierMessage extends AppCompatActivity {
         toast.show();
 
         return INSTANCE;
+        
     }
 
 }
